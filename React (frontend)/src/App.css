@@ -1,0 +1,102 @@
+.App {
+  text-align: center;
+}
+
+body{
+  background-image: url('./images/background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height:100vh;
+  margin:0;
+  color:#ffffff;
+}
+.glass-button{
+  margin-top:30px;
+  margin-bottom:20px;
+  text-align:center;
+  padding-left:60px;
+  padding-right:60px;
+  font-size:20px;
+  background-color:slategray;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border-radius:5px;
+}
+.glass-button:hover {
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.4);
+  transform: scale(1.05);
+}
+
+.glass-button:active {
+  transform: scale(0.97);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.3) inset;
+}
+table {
+  width: 80%;
+  backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #fff;
+  border-collapse:collapse;
+}
+th, td {
+  padding: 15px 20px;
+  text-align: left;
+}
+
+thead tr {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+tbody tr:nth-child(even) {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+tbody tr:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+  transform: scale(1.00);
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+td {
+  transition: color 0.3s ease;
+}
+
+.action-link {
+  text-decoration: none;
+  padding: 6px 12px;
+  margin: 0 4px;
+  font-size: 14px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
+}
+
+.action-link:hover {
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+  transform: scale(1.05);
+}
+
+.edit-link {
+  color: #4fd1c5;
+}
+
+.delete-link {
+  color: #f56565;
+}
+
+.action-link {
+
+  cursor: pointer;
+}
+
+
